@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="icon" href="iconos/m icono.webp">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: rgb(209, 169, 169);
+            display: flex;
+            justify-content: end;
+            text-align: right;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav img {
+            float: left;
+            margin-top: 2px;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        footer {
+            background-color: rgb(209, 169, 169);
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        section {
+            background-color: rgb(234, 234, 234);
+            width: 60%;
+        }
+
+        aside {
+            background-color: rgb(231, 216, 216);
+            width: 30%;
+            padding-left: 8px;
+        }
+
+        div img {
+            width: 50px;
+            margin-top: 4px;
+        }
+
+        .perfil {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        li {
+            list-style-type: none;
+            margin-right: 20px;
+        }
+
+        .imgcentrada {
+            display: block;
+            margin: 20px auto;
+            max-width: 80%;
+            height: auto;
+        }
+
+        ul a img {
+    border-radius: 0%;
+    width: 30px;
+}
+h1 {
+    text-align: center;
+}
+
+        @media (max-width: 768px) {
+            nav {
+                justify-content: center;
+            }
+            ul {
+                flex-direction: column;
+            }
+            main {
+                flex-direction: column;
+            }
+            article, aside {
+                width: 100vw;
+            }
+            aside {
+                order: -1;
+            }
+            li {
+                width: 100vw;
+                display: inline-block;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+    <ul>
+        <li><a href="index1.html"> Inicio </a></li>
+        <li><a href="contacto.html"> Contacto </a></li>
+        <li><a href="#"> Linktree</a></li>
+    </ul>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <h1> Mar del plata 2025 </h1>
+                <img src="imagenes/Mar del plata 3.jpeg" alt="imagen de ejemplo" class="imgcentrada" width="300px">
+                <p style="text-align: center;"> El corazón de Mar del Plata </p>
+                <br>
+                <p> El centro de Mar del Plata es un punto de encuentro vibrante donde se mezcla la historia con el movimiento constante de la ciudad. A lo largo de la Peatonal San Martín, se pueden encontrar locales comerciales, cafés tradicionales, artistas callejeros y una energía que no se apaga, ni siquiera fuera de temporada. Muy cerca, el emblemático Casino Central, el Hotel Provincial y la rambla con las clásicas esculturas de lobos marinos completan el paisaje marplatense por excelencia. Es una zona ideal para pasear, hacer compras o simplemente disfrutar del ritmo único de esta ciudad costera.</p>
+                <br>
+                <p> Me hospedé en el departamento de mis abuelos, por lo que disfrute en familia la costa Argentina. </p>
+                <p> Solemos ir a las carpas de la playa durante el día, y por la noche al centro a cenar. </p>
+                <br>
+                <p> Les adjunto algunas fotografías de esta escapada... </p>
+                <br>
+                <p style="text-align: center;">
+                    <img src="imagenes/Mar del plata 1.jpeg" alt="" width="300px" class="fotos" style="margin-left: 12px;">
+                    <img src="imagenes/Mar del plata 2.jpeg" alt="" width="300px" class="fotos" style="margin-left: 12px;">
+                    <img src="imagenes/Mar del plata 4.jpeg" alt="" width="300px" class="fotos" style="margin-left: 12px;">
+                    <img src="imagenes/Mar del plata 5.jpeg" alt="" width="300px" class="fotos" style="margin-left: 12px;">
+                </p>
+                <hr>
+            </article>
+         </section>
+         <aside>
+            <div class="perfil">
+                <h2> Mailen Todisco </h2>
+            </div>
+            <img src="imagenes/avatar.jpeg" alt="Avatar" width="100px">
+                <p> Soy estudiante de Marketing en UADE. </p>
+                <p> Disfruto viajar, por eso arme mi blog de viajes. </p>
+                <br>
+                <hr>
+                <br>
+            <div class="redes">
+                <h2> Más sobre mi! </h2>
+                <ul>
+                    <li><a href="https://www.instagram.com/maitodisco?igsh=MWRzNjJ2bXFxeWVqcw%3D%3D&utm_source=qr"><img src="iconos/instagram.webp" alt="instagram"></a></li>
+                    <li><a href="https://x.com/maitodiscoo?s=21&t=f8cQW53OQ5LRguAGUNJ8NQ"><img src="iconos/x.webp" alt="x"></a></li>
+                    <li><a href="https://www.tiktok.com/@maitodisco?_t=ZM-8wXvQU8QVN7&_r=1"><img src="iconos/tiktok.webp" alt="tiktok"></a></li>
+                    <br>
+                    <hr>
+                </ul>
+            </div>
+            <div class="suscripcion">
+                <br>
+                <h2> Suscríbete! </h2>
+                <p> Envía tu correo electronico a continuación para suscribirte al blog. </p>
+                <form>
+                <input type="email">
+                <button> Enviar </button>
+            </form>
+            <br>
+                <hr>
+            </div>
+            <div class="posteos">
+                <h2> Mis posteos </h2>
+                <ul>
+                    <li><a href="posteo1.html"> Mar del Plata </a></li>
+                    <li><a href="posteo2.html"> Brasil </a></li>
+                    <li><a href="posteo3.html"> Pinamar </a></li>
+                    <li><a href="posteo4.html"> Calafate </a></li>
+                    <li><a href="posteo5.html"> Europa </a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+    <footer> Hecho por Mailen Todisco </footer>
+
+    <form action=""></form>
+</body>
+</html>
